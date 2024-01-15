@@ -1,0 +1,134 @@
+/* mulish and inter fonts from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+
+/* body {
+  max-width: 1440px;
+} */
+
+/* commonly shared styles */
+.special {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.primary-paragraph {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* nav-bar styles */
+nav {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  display: flex;
+  gap: 5px;
+}
+.nav-img {
+  width: 50px;
+}
+.nav-heading {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-elements ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+.nav-elements ul li {
+  text-align: center;
+  font-family: Mulish;
+  list-style: none;
+  color: #424247;
+  font-size: 18px;
+}
+.nav-special {
+  color: #ff5400 !important;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* banner section styles */
+.banner-container {
+  max-width: 1200px;
+  min-height: 500px;
+  margin: 50px auto;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-heading {
+    text-align: center;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.banner-text {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.banner-form {
+    margin-top: 50px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  padding: 16px;
+  gap: 24px;
+}
+
+/* responsive for mobile devices */
+/* responsive for mobile devices */
+/* responsive for mobile devices */
+@media screen and (max-width: 600px) {
+  nav,
+  .nav-elements ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .banner-heading{
+    padding: 10px;
+    font-size: 40px;
+  }
+  .banner-form{
+    margin: 30px 20px;
+    flex-direction: column;
+  }
+  .banner-container{
+    height: 450px;
+    background-size: auto;
+    flex-direction: column;
+  }
+}
+
+/* responsive for medium/tablet devices */
