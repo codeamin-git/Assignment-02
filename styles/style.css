@@ -350,13 +350,41 @@ nav {
   font-weight: 800;
   margin: 20px 0px;
 }
+.perfect-place-content{
+  padding: 10px;
+  margin: 20px auto;
+}
+
+/* lost place section styles */
+.perfect-place-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+.lost-img {
+  position: relative;
+}
+.lost-img h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* responsive for mobile devices */
 /* responsive for mobile devices */
 /* responsive for mobile devices */
 @media screen and (max-width: 600px) {
   .nav-elements ul,
-  .popular-container {
+  .popular-container,
+  .perfect-place-container {
     flex-direction: column;
     gap: 10px;
     padding: 10px;
@@ -430,8 +458,11 @@ nav {
   .deals-content h1 {
     font-size: 30px;
   }
-  .deals-container{
+  .deals-container {
     margin: 0 auto;
+  }
+  .lost-img img{
+    width: 100%;
   }
 }
 
