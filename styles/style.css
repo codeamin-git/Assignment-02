@@ -432,6 +432,35 @@ nav {
   right: 10px;
 }
 
+/* footer section styles */
+.footer{
+  max-width: 1440px;
+  margin: 0 auto;
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+}
+.footer-details{
+  max-width: 750px;
+  margin: 30px auto;
+}
+.footer-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.footer > p{
+  margin-top: 30px;
+}
+
+
 
 /* responsive for mobile devices */
 /* responsive for mobile devices */
