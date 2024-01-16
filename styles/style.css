@@ -350,7 +350,7 @@ nav {
   font-weight: 800;
   margin: 20px 0px;
 }
-.perfect-place-content{
+.perfect-place-content {
   padding: 10px;
   margin: 20px auto;
 }
@@ -378,6 +378,61 @@ nav {
   transform: translate(-50%, -50%);
 }
 
+/* newsletter section styles */
+.newsletter-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter-content h3 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: start;
+  font-size: 24px;
+}
+.newsletter-content p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.newsletter-content input {
+  margin: 20px;
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.sub-btn {
+  margin-left: 20px;
+  width: 393px;
+}
+.news-btn {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ff5400;
+  font-family: Mulish;
+  font-size: 32px;
+  font-weight: 800;
+}
+.news-btn span {
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 400;
+}
+.newsletter-img{
+  position: relative;
+}
+.newsletter-img button{
+  position: absolute;
+  bottom: 55px;
+  right: 10px;
+}
+
+
 /* responsive for mobile devices */
 /* responsive for mobile devices */
 /* responsive for mobile devices */
@@ -400,7 +455,8 @@ nav {
     font-size: 40px;
   }
   .banner-form,
-  .popular-content {
+  .popular-content,
+  .newsletter-container {
     gap: 0;
     padding: 0;
     margin: 20px 20px;
@@ -448,7 +504,8 @@ nav {
     margin: 0 auto;
   }
   .discount-places2 > div,
-  .discount-places1 > div {
+  .discount-places1 > div,
+  .newsletter-img button {
     display: none;
   }
   .deals-details {
@@ -461,8 +518,12 @@ nav {
   .deals-container {
     margin: 0 auto;
   }
-  .lost-img img{
+  .lost-img img,
+  .newsletter-img img {
     width: 100%;
+  }
+  .newsletter-content input, .sub-btn{
+    width: 80%;
   }
 }
 
